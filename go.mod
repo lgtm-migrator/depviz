@@ -1,8 +1,8 @@
 module moul.io/depviz/v3
 
-go 1.17
+go 1.19
 
-replace github.com/brianloveswords/airtable => github.com/moul/brianloveswords-airtable v0.0.0-20191014120838-8b07ee6d33b2
+replace github.com/brianloveswords/airtable => github.com/moul/brianloveswords-airtable v0.0.0-20201104232343-083b90826e4a
 
 require (
 	github.com/Bearer/bearer-go v1.2.1
@@ -19,17 +19,17 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/oklog/run v1.1.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/peterbourgon/ff/v3 v3.1.2
-	github.com/rs/cors v1.7.0
-	github.com/stretchr/testify v1.8.0
+	github.com/peterbourgon/ff/v3 v3.3.0
+	github.com/rs/cors v1.8.2
+	github.com/stretchr/testify v1.8.1
 	github.com/tailscale/depaware v0.0.0-20210622194025-720c4b409502
 	github.com/treastech/logger v0.0.0-20180705232552-e381e9ecf2e3
 	github.com/xhit/go-str2duration/v2 v2.0.0
-	go.uber.org/zap v1.17.0
-	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602
-	golang.org/x/tools v0.1.12
-	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c
-	google.golang.org/grpc v1.38.0
+	go.uber.org/zap v1.23.0
+	golang.org/x/oauth2 v0.2.0
+	golang.org/x/tools v0.3.0
+	google.golang.org/genproto v0.0.0-20221109142239-94d6d90a7d66
+	google.golang.org/grpc v1.50.1
 	gopkg.in/yaml.v2 v2.4.0
 	moul.io/banner v1.0.1
 	moul.io/godev v1.7.0
@@ -75,13 +75,13 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/mod v0.7.0 // indirect
+	golang.org/x/net v0.2.0 // indirect
+	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/sys v0.2.0 // indirect
+	golang.org/x/term v0.2.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/protobuf v1.26.0 // indirect
+	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
